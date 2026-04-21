@@ -9,11 +9,11 @@
 - [Reproducible Prototyping of Query Optimizer Components](https://dl.acm.org/doi/pdf/10.1145/3722212.3725637)
     - [SIGMOD25-OptimizerTutorial](https://github.com/db-tu-dresden/SIGMOD25-OptimizerTutorial)
 - [How good are query optimizers, really?](https://db.in.tum.de/~leis/papers/optimizer.pdf)
-- [Query Optimization Through the Looking Glass, and What We Found Running the Join Order Benchmark](https://db.in.tum.de/~leis/papers/lookingglass.pdf)
 - [Replacing Oracle Hints: Best Practices with pg_hint_plan on PostgreSQL](https://pganalyze.com/blog/migrating-from-oracle-hints-to-pg-hint-plan-on-postgresql)
 - [Optimizing database queries: Cost and performance analysis](https://www.researchgate.net/publication/401422255_Optimizing_database_queries_Cost_and_performance_analysis)
 ## Benchmarks and Data 
 - [Join Order Benchmark](https://www.vldb.org/pvldb/vol9/p204-leis.pdf)
+- [Query Optimization Through the Looking Glass, and What We Found Running the Join Order Benchmark](https://db.in.tum.de/~leis/papers/lookingglass.pdf)
 - [Star Schema Benchmark](https://www.cs.umb.edu/~poneil/StarSchemaB.PDF)
 - [TPC-H](https://www.tpc.org/tpch/)
 ## Advanced
