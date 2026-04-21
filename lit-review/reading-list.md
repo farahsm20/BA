@@ -12,6 +12,7 @@
 - [Replacing Oracle Hints: Best Practices with pg_hint_plan on PostgreSQL](https://pganalyze.com/blog/migrating-from-oracle-hints-to-pg-hint-plan-on-postgresql)
 - [Optimizing database queries: Cost and performance analysis](https://www.researchgate.net/publication/401422255_Optimizing_database_queries_Cost_and_performance_analysis)
 - [Query evaluation techniques for large databases](https://cs-people.bu.edu/mathan/reading-groups/papers-classics/query-evaluation.pdf)
+- [`EXPLAIN ANALYZE`](https://www.postgresql.org/ docs/9.5/sql-explain.html)
 ## Benchmarks and Data 
 - [Join Order Benchmark](https://www.vldb.org/pvldb/vol9/p204-leis.pdf)
 - [Query Optimization Through the Looking Glass, and What We Found Running the Join Order Benchmark](https://db.in.tum.de/~leis/papers/lookingglass.pdf)
