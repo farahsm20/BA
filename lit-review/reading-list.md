@@ -7,7 +7,7 @@
 ## Methodology
 - [An Elephant Under the Microscope: Analyzing the Interaction of Optimizer Components in PostgreSQL](https://dl.acm.org/doi/pdf/10.1145/3709659)
 - [Reproducible Prototyping of Query Optimizer Components](https://dl.acm.org/doi/pdf/10.1145/3722212.3725637)
-    - https://github.com/db-tu-dresden/SIGMOD25-OptimizerTutorial
+    - [SIGMOD25-OptimizerTutorial](https://github.com/db-tu-dresden/SIGMOD25-OptimizerTutorial)
 - [How good are query optimizers, really?](https://db.in.tum.de/~leis/papers/optimizer.pdf)
 - [Query Optimization Through the Looking Glass, and What We Found Running the Join Order Benchmark](https://db.in.tum.de/~leis/papers/lookingglass.pdf)
 - [Replacing Oracle Hints: Best Practices with pg_hint_plan on PostgreSQL](https://pganalyze.com/blog/migrating-from-oracle-hints-to-pg-hint-plan-on-postgresql)
