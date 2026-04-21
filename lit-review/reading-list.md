@@ -14,8 +14,11 @@
 ## Benchmarks and Data 
 - [Join Order Benchmark](https://www.vldb.org/pvldb/vol9/p204-leis.pdf)
 - [Query Optimization Through the Looking Glass, and What We Found Running the Join Order Benchmark](https://db.in.tum.de/~leis/papers/lookingglass.pdf)
+- [Dynamic Programming Strikes Back](https://15721.courses.cs.cmu.edu/spring2020/papers/20-optimizer2/p539-moerkotte.pdf)
+- [Access Path Selection in a Relational Database Management System](https://web.eecs.umich.edu/~michjc/eecs584/Papers/selinger_1979.pdf)
 - [Star Schema Benchmark](https://www.cs.umb.edu/~poneil/StarSchemaB.PDF)
 - [TPC-H](https://www.tpc.org/tpch/)
+- [Application of Hash to Data Base Machine (Grace Hash Join)](https://dl.acm.org/doi/10.1145/971738.971744)
 ## Advanced
 - [Adaptive Machine Learning Techniques for PostgreSQL Performance Optimization: A PostgreSQL Case Study](https://www.researchgate.net/publication/398698204_Adaptive_Machine_Learning_Techniques_for_PostgreSQL_Performance_Optimization_A_PostgreSQL_Case_Study)
 
