@@ -11,5 +11,5 @@
 - [Join Order Benchmark](https://www.vldb.org/pvldb/vol9/p204-leis.pdf)
 - [Star Schema Benchmark](www.cs.umb.edu/~poneil/StarSchemaB.PDF)
 - [TPC-H](https://www.tpc.org/tpch/)
--[Replacing Oracle Hints: Best Practices with pg_hint_plan on PostgreSQL](https://pganalyze.com/blog/migrating-from-oracle-hints-to-pg-hint-plan-on-postgresql)
--[Adaptive Machine Learning Techniques for PostgreSQL Performance Optimization: A PostgreSQL Case Study](https://www.researchgate.net/publication/398698204_Adaptive_Machine_Learning_Techniques_for_PostgreSQL_Performance_Optimization_A_PostgreSQL_Case_Study)
+- [Replacing Oracle Hints: Best Practices with pg_hint_plan on PostgreSQL](https://pganalyze.com/blog/migrating-from-oracle-hints-to-pg-hint-plan-on-postgresql)
+- [Adaptive Machine Learning Techniques for PostgreSQL Performance Optimization: A PostgreSQL Case Study](https://www.researchgate.net/publication/398698204_Adaptive_Machine_Learning_Techniques_for_PostgreSQL_Performance_Optimization_A_PostgreSQL_Case_Study)
