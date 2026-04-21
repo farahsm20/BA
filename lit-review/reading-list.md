@@ -7,5 +7,5 @@
     - https://github.com/db-tu-dresden/SIGMOD25-OptimizerTutorial
 - [How good are query optimizers, really?](https://db.in.tum.de/~leis/papers/optimizer.pdf)
 - [Robust Query Optimization for Analytical Database Systems (Dissertation)](https://tud.qucosa.de/api/qucosa%3A86763/attachment/ATT-0/)
-- [Query Optimization Through the Looking Glass, and What We Found Running the Join Order Benchmark]https://db.in.tum.de/~leis/papers/lookingglass.pdf)
+- [Query Optimization Through the Looking Glass, and What We Found Running the Join Order Benchmark](https://db.in.tum.de/~leis/papers/lookingglass.pdf)
 
