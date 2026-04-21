@@ -9,7 +9,7 @@
 - [Robust Query Optimization for Analytical Database Systems (Dissertation)](https://tud.qucosa.de/api/qucosa%3A86763/attachment/ATT-0/)
 - [Query Optimization Through the Looking Glass, and What We Found Running the Join Order Benchmark](https://db.in.tum.de/~leis/papers/lookingglass.pdf)
 - [Join Order Benchmark](https://www.vldb.org/pvldb/vol9/p204-leis.pdf)
-- [Star Schema Benchmark](www.cs.umb.edu/~poneil/StarSchemaB.PDF)
+- [Star Schema Benchmark](https://www.cs.umb.edu/~poneil/StarSchemaB.PDF)
 - [TPC-H](https://www.tpc.org/tpch/)
 - [Replacing Oracle Hints: Best Practices with pg_hint_plan on PostgreSQL](https://pganalyze.com/blog/migrating-from-oracle-hints-to-pg-hint-plan-on-postgresql)
 - [Adaptive Machine Learning Techniques for PostgreSQL Performance Optimization: A PostgreSQL Case Study](https://www.researchgate.net/publication/398698204_Adaptive_Machine_Learning_Techniques_for_PostgreSQL_Performance_Optimization_A_PostgreSQL_Case_Study)
