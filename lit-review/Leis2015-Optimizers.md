@@ -4,16 +4,22 @@
 Main Point 
 
 ## Key Takeaways 
-* Cardinality estimation is weak : - Databases often guess row counts very inaccurately
-                                   - Errors grow with more joins (factors of 1000 or more)
-                                   - Estimation errors may occasionally offset, giving acceptable plans despite inaccuracies
-                                   - Correlations between tables are a major cause of these errors
-* Cost model is less critical :  - Even simple cost models perform well
-                                 - The real problem is inaccurate cardinality estimates
-  
-* Join order matters :             - Different join orders → large performance differences
-                                   - Finding a good join order is essential.
-* Exhaustive search helps :        - Trying all bushy tree plans is better than shortcuts or heuristics (like "Greedy Operator Ordering")
+- **Cardinality estimation is weak:**
+  - Databases often guess row counts very inaccurately
+  - Errors grow with more joins (factors of 1000 or more)
+  - Estimation errors may occasionally offset, giving acceptable plans despite inaccuracies
+  - Correlations between tables are a major cause of these errors
+
+- **Cost model is less critical:**
+  - Even simple cost models perform well
+  - The real problem is inaccurate cardinality estimates
+
+- **Join order matters:**
+  - Different join orders → large performance differences
+  - Finding a good join order is essential
+
+- **Exhaustive search helps:**
+  - Trying all bushy tree plans is better than shortcuts or heuristics (like "Greedy Operator Ordering")
 
 ## Quotes
 >"In reality, cardinality estimates are usually computed based on simplifying assumptions like uniformity and independence. In realworld data sets, these assumptions are frequently wrong, which may lead to sub-optimal and sometimes disastrous plans.
