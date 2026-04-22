@@ -15,7 +15,7 @@
 * Exhaustive search helps :        - Trying all bushy tree plans is better than shortcuts or heuristics (like "Greedy Operator Ordering")
 
 ## Quotes
-> [cite_start] "In reality, cardinality estimates are usually computed based on simplifying assumptions like uniformity and independence. In realworld data sets, these assumptions are frequently wrong, which may lead to sub-optimal and sometimes disastrous plans."
+> [cite_start] "In reality, cardinality estimates are usually computed based on simplifying assumptions like uniformity and independence. In realworld data sets, these assumptions are frequently wrong, which may lead to sub-optimal and sometimes disastrous plans."[cite: 28, 29]
 > [cite_start] "Even exhaustive join order enumeration and a perfectly accurate cost model are worthless unless the cardinality estimates are (roughly) correct"
 > [cite_start] "To measure the quality of base table cardinality estimates, we use the q-error, which is the factor by which an estimate differs from the true cardinality"
 > [cite_start] "The q-error furthermore provides a theoretical upper bound for the plan quality if the q-errors of a query are bounded"
