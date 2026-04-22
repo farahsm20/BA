@@ -17,6 +17,7 @@
 - [Application of Hash to Data Base Machine (Grace Hash Join)](https://www.tkl.iis.utokyo.ac.jp/new/uploads/publication_file/file/265/1983kitsuregawa.pdf)
 
 ## Query Optimization
+- [How good are query optimizers, really?](https://www.vldb.org/pvldb/vol9/p204-leis.pdf)
 - [An Elephant Under the Microscope: Analyzing the Interaction of Optimizer Components in PostgreSQL](https://dl.acm.org/doi/pdf/10.1145/3709659)
 - [Query Optimization Through the Looking Glass, and What We Found Running the Join Order Benchmark](https://db.in.tum.de/~leis/papers/lookingglass.pdf)
 - [Optimizing database queries: Cost and performance analysis](https://www.researchgate.net/publication/401422255_Optimizing_database_queries_Cost_and_performance_analysis)
@@ -26,7 +27,6 @@
 
 ## Benchmarks
 - [Join Order Benchmark](https://www.vldb.org/pvldb/vol9/p204-leis.pdf)
-- [How good are query optimizers, really?](https://www.vldb.org/pvldb/vol9/p204-leis.pdf)
 - [Star Schema Benchmark](https://www.cs.umb.edu/~poneil/StarSchemaB.PDF)
 - [TPC-H](https://www.tpc.org/tpch/)
 
