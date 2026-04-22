@@ -18,7 +18,7 @@
 
 ## Query Optimization
 - [An Elephant Under the Microscope: Analyzing the Interaction of Optimizer Components in PostgreSQL](https://dl.acm.org/doi/pdf/10.1145/3709659)
-- [How good are query optimizers, really?](https://db.in.tum.de/~leis/papers/optimizer.pdf)
+- [How good are query optimizers, really?](https://www.vldb.org/pvldb/vol9/p204-leis.pdf)
 - [Query Optimization Through the Looking Glass, and What We Found Running the Join Order Benchmark](https://db.in.tum.de/~leis/papers/lookingglass.pdf)
 - [Optimizing database queries: Cost and performance analysis](https://www.researchgate.net/publication/401422255_Optimizing_database_queries_Cost_and_performance_analysis)
 - [Dynamic Programming Strikes Back](https://15721.courses.cs.cmu.edu/spring2020/papers/20-optimizer2/p539-moerkotte.pdf)
