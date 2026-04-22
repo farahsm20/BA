@@ -9,4 +9,4 @@
 *
 
 ## Quotes
-> "Copy a sentence here that explains WHY query optimizers fail."
+> "..."
