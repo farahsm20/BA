@@ -1,14 +1,12 @@
-# [Paper Name]
-**Reference:** [Author, Year, Conference]
-**Status:** 🟡 In Progress / 🟢 Completed
+# [How good are query optimizers, really?](https://www.vldb.org/pvldb/vol9/p204-leis.pdf)
 
-## 🎯 Summary for Thesis
+## Summary
 *In 2-3 sentences, what is the "Main Point" I will cite in my Intro/Background?*
 
-## 🔑 Key Takeaways (Physical Join Operators)
+## Key Takeaways 
 *
 *
 *
 
-## 📝 High-Value Quotes
+## Quotes
 > "Copy a sentence here that explains WHY query optimizers fail."
