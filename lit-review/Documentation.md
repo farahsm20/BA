@@ -86,9 +86,9 @@ Developing a new optimization algorithm revolves around **optimization stages** 
 - In `MultiStageOptimizationPipeline`, acts as a plan parameterization stage
 
 **Cost Models**  `CostModel`
-- Implement `estimate_cost(query, plan)` — returns cost for a given subplan
+- Implement `estimate_cost(query, plan)`: returns cost for a given subplan
 - Only usable in `TextBookOptimizationPipeline`
-- Cost model is a pure function — does not modify the plan directly
+- Cost model is a pure function : does not modify the plan directly
 
 **Plan Enumeration**   `PlanEnumerator`
 - Implement `generate_execution_plan(query, cost_model, cardinality_estimator)`
@@ -112,7 +112,7 @@ Developing a new optimization algorithm revolves around **optimization stages** 
 
 **Complete Plan Generation**   `CompleteOptimizationAlgorithm`
 - Implement `optimize_query(query)` :returns a complete execution plan
-- Useful when receiving plans from external components (e.g. learned optimizers)
+- Useful when receiving plans from external components (ex learned optimizers)
 
 
 
