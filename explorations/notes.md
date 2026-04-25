@@ -12,3 +12,6 @@
 
 # something seems broken
 `python3 -c "import postbound; print('ok')"`  # tests that postbound is importable in your current venv (to verify the venv is working correctly)
+
+# copy and paste
+`git add <folder>/ && git commit -m "msg" && git push origin main`
