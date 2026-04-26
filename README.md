@@ -8,7 +8,7 @@
 
 ## Metrics
 - Query execution time
-- Buffer usage (using [`EXPLAIN ANALYZE`](https://www.postgresql.org/docs/9.5/sql-explain.html))
+- Buffer usage (using EXPLAIN ANALYZE)
 - Possibly CPU or IO stats
 
 ## Optimizations
@@ -31,10 +31,9 @@
 
 ## Benchmark Datasets
 
-- [TPC-H](https://www.tpc.org/tpch/)
-- [Join Order Benchmark](https://www.vldb.org/pvldb/vol9/p204-leis.pdf)
-- [Star Schema Benchmark](www.cs.umb.edu/~poneil/StarSchemaB.PDF)
-- Possibly extend this by interesting queries
+- TPC-H
+- Join Order Benchmark
+- Star Schema Benchmark
     - Subqueries
 
 ## Results
