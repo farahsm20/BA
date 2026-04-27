@@ -13,11 +13,10 @@ the search space of the native optimizer, which still decides the join order its
 ## Physical Operator Selection Summary
 I implemented and ran the first PostBOUND optimization . This is the step where you tell PostgreSQL which operators to use for each table scan and join, bypassing its native optimizer.
 
-### What we built
+### What i built
 A basic operator selection that assigns:
-
-SequentialScan to every table
-HashJoin to every join
+ - SequentialScan to every table
+ - HashJoin to every join
 
 PostBOUND takes these decisions and injects them as pg_hint_plan hints into the SQL query.
 
