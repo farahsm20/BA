@@ -5,7 +5,7 @@
     - [Documentation](https://postbound.readthedocs.io/en/latest/index.html)
 - [PostBOUND: PostgreSQL with Upper Bound SPJ Query Optimization](https://dl.gi.de/items/9e67412d-a4fb-43af-839d-b0bc5c3774f2)
 - [Robust Query Optimization for Analytical Database Systems (Dissertation)](https://tud.qucosa.de/api/qucosa%3A86763/attachment/ATT-0/)
-- [Reproducible Prototyping of Query Optimizer Components](https://dl.acm.org/doi/pdf/10.1145/3722212.3725637)
+- [Reproducible Prototyping of Query Optimizer Components](https://dl.acm.org/doi/pdf/10.1145/3722212.3725637) 📌
     - [SIGMOD25-OptimizerTutorial](https://github.com/db-tu-dresden/SIGMOD25-OptimizerTutorial)
 - [Replacing Oracle Hints: Best Practices with pg_hint_plan on PostgreSQL](https://pganalyze.com/blog/migrating-from-oracle-hints-to-pg-hint-plan-on-postgresql)
 
