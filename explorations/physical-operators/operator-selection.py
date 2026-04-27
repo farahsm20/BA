@@ -10,15 +10,15 @@ class BasicOperatorSelection(pb.PhysicalOperatorSelection):
         query: pb.SqlQuery,
         join_order: Optional[pb.JoinTree]
     ) -> pb.PhysicalOperatorAssignment:
-        # Mode 2: no join order provided — generate all possible table combinations
+        # Mode 2: no join order provided, generate all possible table combinations
         # and assign operators to all of them to restrict the native optimizer
         if join_order is None:
             joins = (intermediate for intermediate in pb.util.powerset(query.tables()) if len(intermediate) > 1)
-        # Mode 1: join order provided — iterate through each join in the given order
+        # Mode 1: join order provided, iterate through each join in the given order
         else:
             joins = (node.tables() for node in join_order.iterjoins())
 
-        # create an empty assignment object to store our operator decisions
+        # create an empty assignment object to store the operator decisions
         assignment = pb.PhysicalOperatorAssignment()
 
         # assign sequential scan to every table in the query
@@ -29,11 +29,11 @@ class BasicOperatorSelection(pb.PhysicalOperatorSelection):
         for join in joins:
             assignment.add(pb.JoinOperator.HashJoin, join)
 
-        # return the completed assignment — PostBOUND will translate this into hints
+        # PostBOUND will translate this into hints
         return assignment
 
 
-# --- Test ---
+# Test
 
 # connect to the local PostgreSQL container
 pg = pb.postgres.connect(config_file="/Users/farahsomrani/BachelorArbeit/.psycopg_connection_job")
