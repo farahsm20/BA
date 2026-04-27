@@ -9,3 +9,43 @@ each join and scan in that order.
 ### Mode 2: without join order
 No join ordering stage is present. The operator selection assigns physical operators to any intermediate in the query, restricting
 the search space of the native optimizer, which still decides the join order itself.
+
+## Physical Operator Selection Summary
+I implemented and ran the first PostBOUND optimization . This is the step where you tell PostgreSQL which operators to use for each table scan and join, bypassing its native optimizer.
+
+### What i built
+A basic operator selection that assigns:
+ - SequentialScan to every table
+ - HashJoin to every join
+
+PostBOUND takes these decisions and injects them as pg_hint_plan hints into the SQL query.
+
+Benchmark: [Join Order Benchmark](https://github.com/gregrahn/join-order-benchmark) (ig the original link changed ?)
+
+
+### Result
+
+```
+Assignment: global=[] scans=[t: Seq. Scan, mi: Seq. Scan, ci: Seq. Scan] joins=[t ⨝ mi: Hash Join, t ⨝ ci: Hash Join, mi ⨝ ci: Hash Join, t ⨝ mi ⨝ ci: Hash Join] intermediates=[]
+Optimized query result:
+/*+
+ SeqScan(t)
+ SeqScan(mi)
+ SeqScan(ci)
+ HashJoin(t mi)
+ HashJoin(t ci)
+ HashJoin(mi ci)
+ HashJoin(t mi ci)
+ */
+SELECT * FROM title AS t 
+JOIN movie_info AS mi ON t.id = mi.movie_id 
+JOIN cast_info AS ci ON t.id = ci.movie_id;
+```
+
+
+PostgreSQL will now execute this query exactly as specified
+
+### tbd
+- Modify the operator selection to use different operators based on table size (HashJoin for large tables O(n) and NestedLoopJoin for small tables O(n²) )
+- Implement join ordering
+- Run actual benchmarks and measure execution time differences (too early ?)
