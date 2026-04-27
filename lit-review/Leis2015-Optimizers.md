@@ -1,8 +1,5 @@
 # [How good are query optimizers, really?](https://www.vldb.org/pvldb/vol9/p204-leis.pdf)
 
-## Summary
-
-
 
 ## Key Takeaways 
 - **Cardinality estimation is weak:**
