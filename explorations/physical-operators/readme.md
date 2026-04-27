@@ -46,6 +46,6 @@ JOIN cast_info AS ci ON t.id = ci.movie_id;
 PostgreSQL will now execute this query exactly as specified
 
 ### tbd
-- Modify the operator selection to use different operators based on table size
+- Modify the operator selection to use different operators based on table size (HashJoin for large tables O(n) and NestedLoopJoin for small tables O(n²) )
 - Implement join ordering
 - Run actual benchmarks and measure execution time differences (too early ?)
