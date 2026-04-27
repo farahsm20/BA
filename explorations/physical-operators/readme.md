@@ -27,6 +27,8 @@ Benchmark: [Join Order Benchmark](https://github.com/gregrahn/join-order-benchma
 ### Result
 
 ```
+Assignment: global=[] scans=[t: Seq. Scan, mi: Seq. Scan, ci: Seq. Scan] joins=[t ⨝ mi: Hash Join, t ⨝ ci: Hash Join, mi ⨝ ci: Hash Join, t ⨝ mi ⨝ ci: Hash Join] intermediates=[]
+Optimized query result:
 /*+
  SeqScan(t)
  SeqScan(mi)
