@@ -23,7 +23,7 @@
   - Trying all bushy tree plans is better than shortcuts or heuristics (like "Greedy Operator Ordering")
 
 
-## Experimental Setup (Reference Template
+## Experimental Setup (Reference Template)
 > "2.5 Experimental Setup
 The cardinalities of the commercial systems were obtained using
 a laptop running Windows 7. All performance experiments were
